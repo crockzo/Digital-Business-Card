@@ -1,0 +1,52 @@
+
+.digital-card-container{
+ width: 550px;
+ height: 868px;
+ background-color: #23252C;   
+ display: grid;
+ place-items: center;
+ margin: auto;
+}
+
+.digital-card{
+    width: 317px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+ background-color: white   
+}
+
+.user-info-card{
+    padding-top: 30px;
+    width: 237px;
+}
+
+.user-name{
+font-size: 25px;
+font-weight: 700;
+text-align: center;
+}
+
+.user-role{
+font-size: 13px;
+font-weight: 400;
+color: #F47D27;
+text-align: center;
+margin-top: 6px;
+margin-bottom: 8px;
+}
+
+.user-website{
+font-size: 10px;
+font-weight: 400;
+color: #4A4E74;
+text-align: center;
+}
+
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    margin-block: 20px;
+}

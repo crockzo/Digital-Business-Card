@@ -1,0 +1,30 @@
+.main{
+    background-color: #282D35;
+    margin: 0;
+    color: white;
+    padding: 3rem 1.5rem;
+    position: relative;
+    background-image: url("../../assets/react-gray-icon.png");
+    background-repeat: no-repeat;
+    background-position: right 50%;
+}
+
+.main-header{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.main-list{
+    margin: 2.5rem 0px;
+}
+
+.main-list > li {
+    font-weight: 400;
+    margin: 1rem 0;
+    color: white;
+}
+
+.main-list > li::marker {
+    color: #61DAFB;
+    font-size: 1.5rem;
+}

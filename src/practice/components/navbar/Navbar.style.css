@@ -1,0 +1,23 @@
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    padding: 2rem 1rem;
+}
+
+.nav-logo{
+    width: 40px;
+}
+
+.nav-heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-right: auto;
+    color: #61DAFB;
+}
+
+.nav-subheading{
+    font-size: 1rem;
+    color: white;
+}
